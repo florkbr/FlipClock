@@ -1,0 +1,37 @@
+body {
+  display:flex;
+  align-items:center;
+  flex-direction:column;
+  justify-content:center;
+  margin:0px;
+  height:100%;
+}
+
+.clock {
+  display:flex;
+  justify-content:center;
+}
+
+.clock.flip-clock-wrapper {
+  transform: scale(1.5) !important;
+  -ms-transform: scale(1.5)!important; 
+  -webkit-transform: scale(1.5)!important; 
+  -o-transform: scale(1.5)!important; 
+  -moz-transform: scale(1.5)!important;
+  transform-origin: 40% 50%;  /* for position */
+  position: relative;  /* for position */
+  /* margin: auto !important; for ignor jssor css */
+  width: 50%;   /* for inline digits - set on biger size */
+}
+
+.weatherwidget-io {
+  height: unset !important;
+  margin-top: 100px;
+}
+
+.weatherwidget-io-frame {
+  width: 1248px;
+  display: block;
+  position: relative !important;
+}
+
